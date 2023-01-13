@@ -1,0 +1,65 @@
+/* CSS file for hospital database website */
+
+h1 {
+       font-family: "Times New Roman";
+       text-align: center;
+       color: #88BDBC;
+       font-size: 35px;
+}
+
+h2 {
+       font-family: "Times New Roman";
+       color: #6699CC;
+}
+
+h3 {
+       font-family: "Times New Roman";
+}
+
+b {
+       font-family: "Times New Roman";
+       font-size: 17px;
+}
+
+body {
+         font-family: "Georgia";
+}
+
+select {
+            font-family: "Georgia";
+            font-size: 15.5px;
+            background-color: whitesmoke;
+            padding: 5px 6px;
+}
+
+input {
+           font-family: "Georgia";
+           font-size: 15.5px;
+           padding: 5px 6px;
+}
+
+hr {
+        border: 2px solid #C6C7F9;   
+}
+
+table, th, td {
+                   border: 1px solid black;
+                   border-collapse: collapse;
+                   padding: 8px;
+}
+
+th {
+        text-align: left;
+}
+
+.line {
+           margin: 3px 0;
+           height: 3px;
+           background: repeating-linear-gradient(
+               to right,
+               transparent,
+               transparent 5px,
+               #C0C1FF 5px,
+               #C0C1FF 10px
+           );
+}
