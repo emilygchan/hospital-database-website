@@ -11,3 +11,13 @@ The website leverages SQL statements, such as SELECT, INSERT, and DELETE, to do 
 * Get information of a chosen hospital and doctors who work at the chosen hospital
 * Update the number of beds at a hospital
 
+## Run project
+* Edit website/connecttodb.php with your database details
+  * $dbhost = "localhost";
+  * $dbuser = "username";
+  * $dbpass = "password";
+  * $dbname = "hospitaldb";
+* Download website/ and place in your apache server
+* Download hosp.sql and run the file in MySQL command line
+  * mysql> source /path/to/hosp.sql
+* Browse to http://hostname/home.php
